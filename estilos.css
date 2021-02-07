@@ -1,0 +1,365 @@
+.cuerpo{
+    width: 100%;
+    height: 100%;
+	background-image: url(fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: -1;
+}
+
+	.titulo{
+		position: absolute;
+		left: 23%;
+		top: 3%;
+		height: 200px;
+		width: 1000px;
+		background-color: white;
+		opacity: 0.6;
+	}
+
+	.txtt{
+	    position: relative;
+	    left: 25%;
+	    top: -75%;
+	    font-size: 150px;
+	    font-family: algerian;
+	    color: green;
+	}
+
+	.boton1{
+		position: fixed;
+		left: 80%;
+		top: 30%;
+		width: 100px;
+		height: 50px;
+		background-color: green;
+		text-align: center;
+		font-family: algerian;
+		border: dashed;
+	}
+	
+	.btn3{
+		position: fixed;
+		left: 80%;
+		top: 70%;
+		width: 100px;
+		height: 50px;
+		background-color: green;
+		text-align: center;
+		font-family: algerian;
+		border: dashed;
+	}
+
+	.btn2{
+		position: fixed;
+		left: 80%;
+		top: 50%;
+		width: 100px;
+		height: 50px;
+		background-color: green;
+		text-align: center;
+		font-family: algerian;
+		border: dashed;
+	}
+	
+	.cuerpo1{
+		position: absolute;
+		top: 27%;
+		left: 23%;
+		width: 1000px;
+		height: 600px;
+		border: double;
+		
+	}
+	.cuerpo1:before {
+		content: "";
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0.5;
+		z-index: -1;
+	}
+
+	.txt1{
+		position: relative;
+		top: 25%;
+		left: 5%;
+		color: white;
+		font-family: algerian;
+		font-size: 30px;
+		
+	}
+	
+	.titulo2{
+		position: absolute;
+		left: 23%;
+		top: 100%;
+		height: 200px;
+		width: 1000px;
+		background-color: white;
+		opacity: 0.6;
+	}
+	.txtt2{
+	    position: relative;
+	    left: 15%;
+	    top: -40%;
+	    font-size: 100px;
+	    font-family: algerian;
+	    color: green;
+	}
+	.cuerpo2{
+		position: absolute;
+		top: -300%;
+		left: 240%;
+		width: 1000px;
+		height: 600px;
+		border: double;
+	}
+	.cuerpo2:before {
+		content: "";
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0.5;
+		z-index: -1;
+	}
+	
+	.txt2{
+		position: absolute;
+		top: 25%;
+		color: white;
+		font-family: algerian;
+		font-size: 30px;
+		display: none;
+		
+
+	}
+
+	.df1{
+		position: absolute;
+		left: 10%;
+		top: 140%;
+		width: 100px;
+		height: 50px;
+		background-color: green;
+		text-align: center;
+		font-family: algerian;
+		border: double;
+	}
+
+	.df1:hover   .txt2{	
+	display: block;
+	}
+
+	.stx1{
+		position: absolute;
+		left: 10%;
+		top: 160%;
+		width: 100px;
+		height: 50px;
+		background-color: green;
+		text-align: center;
+		font-family: algerian;
+		border: double;
+	}
+	.ft1{
+		position: absolute;
+		left: 550%;
+		top: -100%;
+		display: none;
+	}
+	.stx1:hover .ft1{
+		display: block;
+	}
+
+
+
+
+
+
+
+
+	.titulo3{
+		position: absolute;
+		left: 23%;
+		top: 200%;
+		height: 200px;
+		width: 1000px;
+		background-color: white;
+		opacity: 0.6;
+	}
+	.txtt3{
+	    position: relative;
+	    left: 10%;
+	    top: -40%;
+	    font-size: 100px;
+	    font-family: algerian;
+	    color: green;
+	}
+	.cuerpo3{
+		position: absolute;
+		top: -500%;
+		left: 240%;
+		width: 1000px;
+		height: 600px;
+		border: double;
+	}
+	.cuerpo3:before {
+		content: "";
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0.5;
+		z-index: -1;
+	}
+	
+	.txt3{
+		position: absolute;
+		top: 25%;
+		color: white;
+		font-family: algerian;
+		font-size: 30px;
+		display: none;
+		
+
+	}
+
+	.df2{
+		position: absolute;
+		left: 10%;
+		top: 255%;
+		width: 100px;
+		height: 50px;
+		background-color: green;
+		text-align: center;
+		font-family: algerian;
+		border: double;
+	}
+
+	.df2:hover   .txt3{	
+	display: block;
+	}
+
+	.stx2{
+		position: absolute;
+		left: 10%;
+		top: 270%;
+		width: 100px;
+		height: 50px;
+		background-color: green;
+		text-align: center;
+		font-family: algerian;
+		border: double;
+	}
+	.ft2{
+		position: absolute;
+		left: 550%;
+		top: -200%;
+		display: none;
+	}
+	.stx2:hover .ft2{
+		display: block;
+	}
+
+
+
+
+
+
+
+
+
+	.titulo4{
+		position: absolute;
+		left: 23%;
+		top: 300%;
+		height: 200px;
+		width: 1000px;
+		background-color: white;
+		opacity: 0.6;
+	}
+	.txtt4{
+	    position: relative;
+	    left: 10%;
+	    top: -40%;
+	    font-size: 100px;
+	    font-family: algerian;
+	    color: green;
+	}
+	.cuerpo4{
+		position: absolute;
+		top: -500%;
+		left: 240%;
+		width: 1000px;
+		height: 600px;
+		border: double;
+	}
+	.cuerpo4:before {
+		content: "";
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0.5;
+		z-index: -1;
+	}
+	
+	.txt4{
+		position: absolute;
+		top: 25%;
+		color: white;
+		font-family: algerian;
+		font-size: 30px;
+		display: none;
+		
+
+	}
+
+	.df3{
+		position: absolute;
+		left: 10%;
+		top: 355%;
+		width: 100px;
+		height: 50px;
+		background-color: green;
+		text-align: center;
+		font-family: algerian;
+		border: double;
+	}
+
+	.df3:hover   .txt4{	
+	display: block;
+	}
+
+	.stx3{
+		position: absolute;
+		left: 10%;
+		top: 370%;
+		width: 100px;
+		height: 50px;
+		background-color: green;
+		text-align: center;
+		font-family: algerian;
+		border: double;
+	}
+	.ft3{
+		position: absolute;
+		left: 550%;
+		top: -200%;
+		display: none;
+	}
+	.stx3:hover .ft3{
+		display: block;
+	}
